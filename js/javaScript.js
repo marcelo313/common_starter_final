@@ -14,11 +14,13 @@ document.addEventListener('DOMContentLoaded', function() {
     }, false);
 
     document.getElementById('bringToFront').addEventListener('click', function() {
-        document.querySelector('.background-image').style.zIndex = "1500"; // Lower than buttons but higher than other content
+        document.querySelector('.background-image').style.zIndex = "1500";
+        document.querySelector('.background-image').style.opacity = "1";
     });
 
     document.getElementById('sendToBack').addEventListener('click', function() {
-        document.querySelector('.background-image').style.zIndex = "-1"; // Original z-index
+        document.querySelector('.background-image').style.zIndex = "-1";
+        document.querySelector('.background-image').style.opacity = ".65";
     });
 
 
