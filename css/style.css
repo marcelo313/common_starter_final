@@ -4,6 +4,21 @@
   box-sizing: border-box; /* This ensures that padding and borders are included in total width and height */
 }
 
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: grayscale(10%);
+  opacity: 0.65;
+  z-index: -1;
+}
+
 header {
     
     padding-top: 50px;
@@ -22,21 +37,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-family: 'Open Sans', sans-serif;
-}
-
-.background-image {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  filter: grayscale(10%);
-  opacity: 0.65;
-  z-index: -1;
 }
 
 #backgroundControlButtons {
