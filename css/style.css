@@ -35,6 +35,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   filter: grayscale(10%);
+  opacity: 0.65;
   z-index: -1;
 }
 
@@ -382,8 +383,6 @@ figcaption {
         grid-template-columns: auto auto auto;
     }
 }
-
-
 
 
 
